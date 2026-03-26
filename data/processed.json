@@ -1,12 +1,12 @@
 {
   "plant": "BMI Paterson",
-  "last_updated": "2026-03-26 07:12 SAST",
+  "last_updated": "2026-03-26 09:34 SAST",
   "date": "2026-03-26",
-  "total_kwh": 0.0,
-  "last_hour": 7,
-  "status": "offline",
+  "total_kwh": 32.72,
+  "last_hour": 10,
+  "status": "ok",
   "alerts": {
-    "offline": true,
+    "offline": false,
     "pace_low": false,
     "total_low": false
   },
@@ -20,9 +20,9 @@
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0,
+      0.73,
+      8.88,
+      23.11,
       0.0,
       0.0,
       0.0,
@@ -73,9 +73,9 @@
     0.0,
     0.0,
     0.0,
-    0.0,
-    0.0,
-    0.0,
+    0.73,
+    8.88,
+    23.11,
     0.0,
     0.0,
     0.0,
@@ -446,7 +446,7 @@
       "last_hour": 0
     },
     "2026-03-26": {
-      "total_kwh": 0.0,
+      "total_kwh": 32.72,
       "hourly": [
         0.0,
         0.0,
@@ -456,9 +456,9 @@
         0.0,
         0.0,
         0.0,
-        0.0,
-        0.0,
-        0.0,
+        0.73,
+        8.88,
+        23.11,
         0.0,
         0.0,
         0.0,
@@ -499,8 +499,8 @@
         0,
         0
       ],
-      "last_updated": "2026-03-26 07:12 SAST",
-      "last_hour": 7
+      "last_updated": "2026-03-26 09:34 SAST",
+      "last_hour": 10
     }
   },
   "thresholds": {
@@ -515,8 +515,8 @@
     }
   },
   "debug": {
-    "reason": "no generation detected during daylight",
-    "curve_fraction": 0.0,
+    "reason": "insufficient history (2/7 days)",
+    "curve_fraction": 0.372,
     "expected_by_now": 0.0,
     "pace_trigger": 0.0,
     "projected_total": 0.0,
