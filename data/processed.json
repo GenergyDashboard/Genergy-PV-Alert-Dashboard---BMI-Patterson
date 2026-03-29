@@ -1,9 +1,9 @@
 {
   "plant": "BMI Paterson",
-  "last_updated": "2026-03-29 10:51 SAST",
+  "last_updated": "2026-03-29 11:44 SAST",
   "date": "2026-03-29",
-  "total_kwh": 67.57,
-  "last_hour": 11,
+  "total_kwh": 111.14,
+  "last_hour": 12,
   "status": "ok",
   "alerts": {
     "offline": false,
@@ -24,7 +24,7 @@
       8.76,
       22.97,
       35.2,
-      0.0,
+      43.57,
       0.0,
       0.0,
       0.0,
@@ -77,7 +77,7 @@
     8.76,
     22.97,
     35.2,
-    0.0,
+    43.57,
     0.0,
     0.0,
     0.0,
@@ -617,7 +617,7 @@
       "last_hour": 0
     },
     "2026-03-29": {
-      "total_kwh": 67.57,
+      "total_kwh": 111.14,
       "hourly": [
         0.0,
         0.0,
@@ -631,7 +631,7 @@
         8.76,
         22.97,
         35.2,
-        0.0,
+        43.57,
         0.0,
         0.0,
         0.0,
@@ -670,8 +670,8 @@
         0,
         0
       ],
-      "last_updated": "2026-03-29 10:51 SAST",
-      "last_hour": 11
+      "last_updated": "2026-03-29 11:44 SAST",
+      "last_hour": 12
     }
   },
   "thresholds": {
@@ -687,7 +687,7 @@
   },
   "debug": {
     "reason": "insufficient history (5/7 days)",
-    "curve_fraction": 0.5,
+    "curve_fraction": 0.628,
     "expected_by_now": 0.0,
     "pace_trigger": 0.0,
     "projected_total": 0.0,
